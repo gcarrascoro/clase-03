@@ -12,9 +12,12 @@
     <p>¡Bienvenida a la página <code>v0.1</code> de ADA!</p>
     <p>Está <b>prohibido</b> poner CSS a está página</p>
     <form action="">
-        <input type="text" name="Nombre" placeholder="Tu nombre">
-        <input type="text" name="Apellido" placeholder="Tu apellido">
-        <input type="email" name="Mail" placeholder="Email de contacto">
+        <label for="name">Nombre</label>
+        <input id="name" type="text" name="Nombre" placeholder="Tu nombre">
+        <label for="apellido">Apellido</label>
+        <input id="apellido" type="text" name="Apellido" placeholder="Tu apellido">
+        <label for="mail">Mail</label>
+        <input id="mail" type="email" name="Mail" placeholder="Email de contacto">
         <button type="submit">Enviar</button>
         
     </form>
